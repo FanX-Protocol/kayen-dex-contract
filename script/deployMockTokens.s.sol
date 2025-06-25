@@ -7,7 +7,6 @@ import {WrapperFactory} from "../src/utils/WrapperFactory.sol";
 import {FanXFactory} from "../src/FanXFactory.sol";
 import {ERC20Mintable} from "../src/mocks/ERC20Mintable_decimal.sol";
 
-// Depending on the nature of your oasys blockchain, deployment scripts are not used in production
 contract deployMockTokens is Script {
     function run() external {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");

@@ -4,7 +4,6 @@ pragma solidity ^0.8.0;
 import {Script, console2} from "forge-std/Script.sol";
 import {FanXFactory} from "../src/FanXFactory.sol";
 
-// Depending on the nature of your oasys blockchain, deployment scripts are not used in production
 contract setFeeTo is Script {
     address setFeeTo = 0x681d20Ad2845E33c88a97178a59293b0EF51Ab1c;
     address factory = 0xE2918AA38088878546c1A18F2F9b1BC83297fdD3;
